@@ -1,2 +1,2 @@
-# mcham.github.io
+# dgkim16.github.io
 Personal blog page
