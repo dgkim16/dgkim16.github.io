@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title>WEBSITE</title>
+    </head>
+    <body>
+        <div style="display:flex">
+            <div>
+                <h1>첫 블록</h1>
+                <p> 
+                    br로 줄 바꾸기<br>
+                    바뀌었다! <strong>strong태그에 있다!</strong>
+                </p>
+                <input type = "text" style = "width: 300px; height: 50px; font-size: 10px">
+
+                <!-- 같은 div에 있으면 같은 줄에, 다른 div면 다음 줄에 다음 버튼이 있음 -->
+                <div>
+                    <button style = "width: 100px; height: 50px; font-size: 10px">버튼</button>
+                    <button style = "width: 100px; height: 50px; font-size: 10px">버튼</button>
+                </div>
+
+                <a href = "https://www.google.com">구글로 이동</a>
+            </div>
+            <div>
+                <h1>두 번째 블록</h1>
+                <img src = "https://yt3.googleusercontent.com/OMchI7EqrOq6W9eLGsrPGJfrPBdjNLlmGVPGxHfYxYRIxLpP4DkEm_scuCViu6eBB4lrMG03=s900-c-k-c0x00ffffff-no-rj" width = "400" height = auto alt = "1승 추가욧">
+                
+                <ul style= "font-size:25px">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+
+                <table summary = "테이블" style = "width:500px; height: 20px;">
+                    <caption>테이블 이름 caption</caption>
+                    <tr>
+                        <th>이름</th>
+                        <th>나이</th>
+                        <th>지역</th>
+                    </tr>
+                    <tr>
+                        <td>철수</td>
+                        <td>20</td>
+                        <td>서울</td>
+                    </tr>
+                    <tr>
+                        <td>영희</td>
+                        <td>21</td>
+                        <td>인천</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h1>세 번째 블록</h1>
+                <form>
+                    <input type="text" style = "font-size:30px;">
+                    <input type="email" style = "font-size:30px;"> <!-- 이메일 주소의 형태를 강제함 -->
+                    <input type="password" style = "font-size:30px;"> <!-- 입력한게 보이지 않음 -->
+                    <input type="date" style = "font-size:30px;">
+                    <input type="checkbox" style = "font-size:30px;">
+                    <select name="coffee" >
+                        <option value="1">아메리카노</option>
+                        <option value="2">라떼</option>
+                        <option value="3">에스프레소</option>
+                    </select>
+                    <button type="submit" style = "font-size:30px;">완료</button>
+                </form>
+            </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+</html>
